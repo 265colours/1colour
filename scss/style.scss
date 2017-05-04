@@ -1,0 +1,72 @@
+/* Diese Regel nicht verändern! */
+div {
+  background-color: black;
+  position: absolute; }
+
+/* Deine Parameter: */
+$universal: 42%;
+$big:       90%;
+$small:     10%;
+$medium:    50%;
+$ten:       10px;
+$two:       200px;
+$nine:      900px;
+$four:      40px;
+$six:       600px;
+
+
+/* Ab hier deine Regeln :-) */
+.el-1 {
+  top:    $ten;
+  bottom:  $four+$four;
+  left:   $two;
+  right:  $nine;
+}
+
+.el-2 {
+  background-color: blue;
+  top:    $ten+$ten;
+  bottom: $two+$two;
+  left:  $two;
+  right: $four;
+}
+
+.el-3 {
+  background-color: yellow;
+  top:    $four;
+  bottom: $medium+$small;
+  right:  $six;
+  width: $ten;
+}
+
+.el-4 {
+  background-color: red;
+  top:    $ten+$ten;
+  bottom: $universal;
+  left:   $nine+$ten;
+  right:  $four;
+  width:  $small;
+}
+
+.el-5 {
+  background-color: green;
+  top:    $ten;
+  bottom: $small;
+  left:   $ten;
+  right:  $ten;
+  width:  $small;
+}
+.el-6 {
+  background-color: orange;
+  top:    $universal+40%;
+  bottom: 10px;
+  left:   800px;
+  right:  50px;
+}
+.el-7 {
+  background-color: pink;
+  top:    100px;
+  bottom: 40px;
+  left:   200px;
+  right:  800px;
+}
