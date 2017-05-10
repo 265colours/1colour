@@ -1,72 +1,17 @@
-/* Diese Regel nicht verändern! */
+//* Diese Regel nicht verändern! */
 div {
   background-color: black;
-  position: absolute; }
+  position: relative; }
 
-/* Deine Parameter: */
-$universal: 42%;
-$big:       90%;
-$small:     10%;
-$medium:    50%;
-$ten:       10px;
-$two:       200px;
-$nine:      900px;
-$four:      40px;
-$six:       600px;
-
-
-/* Ab hier deine Regeln :-) */
-.el-1 {
-  top:    $four;
-  bottom:  $four+$four;
-  left:   $two;
-  right:  $nine;
-}
-
-.el-2 {
-  background-color: red;
-  top:    $ten+$ten;
-  bottom: $two+$two;
-  left:  $two;
-  right: $four;
-}
-
-.el-3 {
-  background-color: yellow;
-  top:    $four;
-  bottom: $medium+$small;
-  right:  $six;
-  width: $ten;
-}
-
-.el-4 {
-  background-color: red;
-  top:    $ten+$ten;
-  bottom: $universal;
-  left:   $nine+$ten;
-  right:  $four;
-  width:  $small;
-}
-
-.el-5 {
-  background-color: green;
-  top:    $ten;
-  bottom: $small;
-  left:   $ten;
-  right:  $ten;
-  width:  $small;
-}
-.el-6 {
-  background-color: orange;
-  top:    $universal+40%;
-  bottom: 10px;
-  left:   800px;
-  right:  50px;
-}
-.el-7 {
-  background-color: pink;
-  top:    100px;
-  bottom: 40px;
-  left:   200px;
-  right:  800px;
+$grid-columns: 7;
+  @for $i from 1 through $grid-columns {
+    .el-#{$i} {
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        height: 20px;
+        width: 100px + ($i*150);
+        background-color: rgb($i*2, $i*40, $i*80); 
+  }
 }

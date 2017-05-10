@@ -1,65 +1,74 @@
-@charset "UTF-8";
-/* Diese Regel nicht verändern! */
 div {
   background-color: black;
-  position: absolute;
+  position: relative;
 }
 
-/* Deine Parameter: */
-/* Ab hier deine Regeln :-) */
 .el-1 {
-  top: 40px;
-  bottom: 80px;
-  left: 200px;
-  right: 900px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 20px;
+  width: 250px;
+  background-color: #022850;
 }
 
 .el-2 {
-  background-color: red;
-  top: 20px;
-  bottom: 400px;
-  left: 200px;
-  right: 40px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 20px;
+  width: 400px;
+  background-color: #0450a0;
 }
 
 .el-3 {
-  background-color: yellow;
-  top: 40px;
-  bottom: 60%;
-  right: 600px;
-  width: 10px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 20px;
+  width: 550px;
+  background-color: #0678f0;
 }
 
 .el-4 {
-  background-color: red;
-  top: 20px;
-  bottom: 42%;
-  left: 910px;
-  right: 40px;
-  width: 10%;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 20px;
+  width: 700px;
+  background-color: #08a0ff;
 }
 
 .el-5 {
-  background-color: green;
-  top: 10px;
-  bottom: 10%;
-  left: 10px;
-  right: 10px;
-  width: 10%;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 20px;
+  width: 850px;
+  background-color: #0ac8ff;
 }
 
 .el-6 {
-  background-color: orange;
-  top: 82%;
-  bottom: 10px;
-  left: 800px;
-  right: 50px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 20px;
+  width: 1000px;
+  background-color: #0cf0ff;
 }
 
 .el-7 {
-  background-color: pink;
-  top: 100px;
-  bottom: 40px;
-  left: 200px;
-  right: 800px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 20px;
+  width: 1150px;
+  background-color: #0effff;
 }
